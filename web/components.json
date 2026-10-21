@@ -1,0 +1,20 @@
+{
+	"$schema": "https://shadcn-svelte.com/schema/registry.json",
+	"style": "vega",
+	"tailwind": {
+		"config": "",
+		"css": "src/app.css",
+		"baseColor": "zinc"
+	},
+	"aliases": {
+		"components": "#components",
+		"utils": "#lib/utils",
+		"hooks": "#hooks",
+		"ui": "#components/ui",
+		"lib": "#lib"
+	},
+	"iconLibrary": "lucide",
+	"registries": {
+		"shadcn-svelte": "https://shadcn-svelte.com/registry/styles/vega"
+	}
+}

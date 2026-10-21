@@ -1,0 +1,27 @@
+# Binaries
+/sevshield
+
+# Go
+*.exe
+*.test
+*.out
+/vendor/
+
+# SQLite
+*.db
+*.db-*
+data/
+
+# SvelteKit (keep web/build/.gitkeep so `go build` works before `bun run build`)
+web/build/*
+!web/build/.gitkeep
+web/node_modules/
+web/.svelte-kit/
+web/.env
+web/.env.*
+
+# Secrets (never commit)
+.env
+
+# OS
+.DS_Store

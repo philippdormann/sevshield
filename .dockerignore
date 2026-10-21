@@ -1,0 +1,5 @@
+.git
+data/
+*.db
+web/node_modules/
+web/.svelte-kit/

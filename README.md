@@ -49,7 +49,7 @@ curl localhost:8080/api/v1/CheckAccount -H "Authorization: sevsh_..."
 
 ## Quickstart (from source)
 
-Prerequisites: Go 1.26+, Bun.
+Prerequisites: Go 1.27+, Bun.
 
 ```bash
 # 1. Build the UI first - it is embedded into the binary.
